@@ -246,10 +246,10 @@ main{
 
 
 /* Responsive mobile device */
-@media screen and (max-width:450px) {
+@media screen and (max-width:577px) {
     #max-width {
     width: 100%;
-    max-width: 450px;
+    max-width: 577px;
     padding: 0px 0;
 }
 
