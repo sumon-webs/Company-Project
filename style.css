@@ -250,7 +250,7 @@ main{
     #max-width {
     width: 100%;
     max-width: 450px;
-    padding: 15px 0;
+    padding: 0px 0;
 }
 
 .dark-1 {
@@ -272,6 +272,9 @@ main{
     font-size: .8rem;
 }
 
+main {
+    gap: 40px;
+}
 /* Header responsive style */
 header {
     gap: 40px;
@@ -303,5 +306,81 @@ header {
 .hero-image img{
     width: 98%;
     
+}
+
+/* Team section */
+.team-section {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.team-description {
+    padding: 0px 8px;
+    gap: 13px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Feature section */
+.feature-description{
+    padding: 0px 12px;
+
+}
+
+.feature-section{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature-box-container {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-image{
+    padding: 0px 12px;
+}
+
+.Experience{
+    margin: -29px 0px ;
+}
+
+.years{
+    font-size: 1rem;
+}
+
+/* Fact section */
+.facts-description {
+    max-width: 100%;
+    padding: 0 12px;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.facts-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Spons section */
+.spons-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Footer section */
+.foote-p {
+    padding: 25px 0px;
 }
 }
